@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.table-main{
+    margin-top: 70px;
+    margin-left: 45px;
+    width: 260px;
+    
+}
+.table-data {
+    padding: 15px;
+    padding-left: 20px;
+    margin-bottom: 39px;
+    font-size: 14px;
+    height: 50px;
+    width: 220px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+  }
+  @media only screen and (max-width: 600px){
+
+    .table-main{
+        margin-left: 0px;
+        width: 220px;
+        margin-top: 30px;
+    }
+    
+  }
